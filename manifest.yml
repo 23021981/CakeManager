@@ -1,0 +1,10 @@
+---
+applications:
+  - name: cicd-cake-manager
+    instances: 1
+    memory: 1000m
+    disk_quota: 1G
+    no-route: true
+    timeout : 180
+    docker:
+        image: atulkumar1981/cakemanager:latest
